@@ -1,0 +1,47 @@
+body{
+    background-image: url('../images/photo.jpeg');
+    background-size: cover;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    color: blue;
+    align-content: center;
+    text-align: center;
+    border: 5px solid brown;
+    cursor: pointer; 
+}
+p{
+    color: brown;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext{
+   background-color: darkblue;
+}
+
+.webtextcolor{
+    color: white;
+    text-emphasis-color: white;
+}
+
+img{
+    widows: 450px;
+    height: 500px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
